@@ -1,59 +1,102 @@
 # Excel Customer Behavior Dashboard
 
 <div align="center">
-  <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&q=80" alt="Business analytics dashboard" width="1000"/>
+  <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&q=80" alt="Customer analytics dashboard" width="1100" />
 </div>
 
-This project is a customer behavior dashboard built in Excel to help visualize and analyse shopping trends across different customer segments. It turns raw transaction data into meaningful business insights by showing patterns in purchasing behaviour, customer preferences, spending habits, and product performance.
+This project is an Excel-based customer behavior dashboard designed to analyse shopping patterns and customer engagement trends. It helps transform raw customer and purchase data into useful business insights that show how a business is performing and how customers interact with products and services.
 
-The dashboard is designed to support business decisions by making it easier to understand who the customers are, what they buy, how much they spend, and when they are most likely to purchase. It can be used as a practical example of data analysis, dashboard design, and business intelligence in an Excel environment.
+The dashboard focuses on understanding the behaviour of customers across different age groups, genders, locations, seasons, product categories, and purchasing habits. It is a practical data analytics project that demonstrates how Excel can be used to visualise real-world business information in a clear and decision-oriented way.
 
-## Why this project matters
+## Overview
 
-Understanding customer behaviour is essential for any business. By studying customer data, organisations can:
+Customer behaviour analysis is one of the most important parts of modern business intelligence. By understanding what customers buy, how often they buy, what they prefer, and how spending changes over time, organisations can:
 
-- identify the most popular products and categories
-- understand which customer groups generate the most revenue
-- analyse spending patterns by age, gender, and location
-- evaluate how seasons and promotions affect sales
-- improve customer satisfaction and retention strategies
-- make data-driven marketing and inventory decisions
+- improve product selection
+- plan marketing strategies
+- monitor sales performance
+- estimate customer demand
+- identify customer trends by segment
+- improve customer satisfaction and retention
 
-This dashboard provides a clear visual summary of those insights in a format that is easy to understand and easy to present.
+This dashboard allows users to explore customer purchasing patterns and convert them into actionable insights for business decision-making.
 
-## Project overview
+## Project objective
 
-The Excel dashboard is based on a shopping trends dataset containing customer records such as:
+The main goal of this project is to create a dashboard that presents customer shopping behaviour in a simple and visually effective way. The dashboard highlights:
+
+- shopping preferences by category
+- purchasing patterns by demographic segment
+- product demand across regions
+- seasonal sales behaviour
+- review ratings and satisfaction trends
+- purchase frequency and customer retention patterns
+
+The analysis supports a better understanding of enterprise performance from a customer perspective.
+
+## Dataset
+
+The project uses a shopping trends dataset containing customer and transaction information, including:
 
 - Customer ID
 - Age
 - Gender
-- Item purchased
-- Product category
-- Purchase amount
+- Item Purchased
+- Product Category
+- Purchase Amount (USD)
 - Location
-- Preferred colour
+- Color
 - Season
-- Review rating
-- Subscription status
-- Shipping type
-- Discount and promo usage
-- Previous purchases
-- Payment method
-- Frequency of purchase
+- Review Rating
+- Subscription Status
+- Shipping Type
+- Discount Applied
+- Promo Code Used
+- Previous Purchases
+- Payment Method
+- Frequency of Purchase
 
-With these variables, the dashboard explores how customer habits change across demographics, seasons, and shopping behaviours.
+This dataset is ideal for customer analytics because it captures both demographic and behavioural variables.
 
-## Dashboard goals
+## Why this dashboard matters
 
-The main objectives of this dashboard are to:
+Businesses do not only need sales totals. They also need to understand:
 
-1. Understand customer purchase patterns.
-2. Measure spend by category and customer segment.
-3. Analyse seasonal demand and product popularity.
-4. Identify behaviour trends by location and demographics.
-5. Highlight the role of subscriptions, discounts, and shipping choices.
-6. Present results in a clean, business-friendly dashboard.
+- who their customers are
+- what they buy
+- how much they spend
+- when they buy
+- where demand is strongest
+- which products attract attention
+- how pricing and promotions influence activity
+
+This dashboard helps answer those questions in a clear and engaging way.
+
+## Key questions the dashboard can answer
+
+The dashboard is designed to help answer questions such as:
+
+- Which product categories generate the highest sales?
+- Which age groups spend the most money?
+- Which regions show the strongest demand?
+- Are purchases affected by seasonality?
+- Do customers with subscriptions buy more frequently?
+- Which items are most popular in different areas?
+- How do discounts and shipping choices affect buying behaviour?
+- Is there a relationship between customer ratings and spending?
+
+## Business value
+
+This dashboard adds value by helping organisations understand customer activity in context. It can be useful for:
+
+- sales teams
+- marketing teams
+- product managers
+- business analysts
+- retail managers
+- decision-makers who need quick insights from customer data
+
+The visual presentation makes the information easier to communicate to stakeholders who may not work directly with raw spreadsheets or datasets.
 
 ## Repository structure
 
@@ -64,105 +107,100 @@ Excel-Customer-Behavior-Dashboard/
 ├── dashboard/
 │   └── Shopping Trends And Customer Behaviour Dataset.xlsx
 ├── README.md
-└── Readme.md
+├── Readme.md
+└── .gitignore
 ```
 
-### Files in the repository
+### Files
 
 - `data/Shopping Trends And Customer Behaviour Dataset.csv`  
-  Raw dataset used for analysis in a CSV format.
+  Raw customer shopping dataset used for analysis.
 
 - `dashboard/Shopping Trends And Customer Behaviour Dataset.xlsx`  
-  Excel workbook containing the customer behavior dashboard and supporting analyses.
+  Excel dashboard workbook containing the visualised customer insights.
 
 - `README.md`  
-  Project documentation and overview.
+  Main project documentation.
 
-## What the dashboard can show
+- `Readme.md`  
+  Duplicate project overview for compatibility and easy viewing.
 
-The dashboard can be used to answer questions like:
+## What the dashboard shows
 
-- Which product category generates the most sales?
-- Which age group spends the most money?
-- Are customers buying more during certain seasons?
-- Do subscribers purchase more frequently than non-subscribers?
-- Which locations have the strongest customer demand?
-- How do discounts and promotions influence buying behavior?
-- Which product colours or items are most preferred?
+The Excel dashboard may include insights such as:
 
-The answers to these questions provide useful insights for retail and sales strategy.
+- total sales by category
+- customer segment analysis
+- product demand by region
+- seasonal trends
+- favourite product colours
+- review rating summaries
+- subscription and purchase frequency trends
+- payment and shipping behaviour insights
 
-## Business value of the analysis
+This makes the dashboard useful both for analytics and for presenting results to non-technical audiences.
 
-This dashboard is valuable because it transforms raw customer records into decision-making information. It helps businesses understand:
-
-- customer buying habits
-- product demand trends
-- sales performance by demographic segment
-- customer engagement and satisfaction
-- pricing and promotional opportunities
-
-This is especially useful in marketing, sales planning, inventory management, and customer relationship strategy.
-
-## Tools and skills used
+## Skills demonstrated
 
 This project demonstrates practical skills in:
 
 - Excel dashboard design
-- Data cleaning and preparation
-- Exploratory data analysis
-- Business intelligence concepts
-- Pivot tables and charts
-- Data visualisation
-- Customer analytics
+- data cleaning and preparation
+- business intelligence
+- visual storytelling
+- data analysis
+- customer analytics
+- exploratory data analysis
+- chart creation and KPI reporting
 
-## Example of the kind of insight this project reveals
+## Example insights from this type of analysis
 
-A typical analysis from this type of dataset may show that:
+Typical findings from customer behaviour datasets may include:
 
-- clothing is one of the most purchased categories
-- purchase amounts vary by age, gender, and season
-- customers with subscriptions may shop more consistently
-- shipping type and discount usage influence buying behaviour
-- some regions perform better than others for certain product lines
+- clothing is one of the best-performing categories
+- spending varies by age and location
+- certain seasons generate higher demand for certain products
+- subscriptions may increase purchase frequency
+- customers respond differently to discount and shipping options
+- products with strong review ratings often perform better
 
-These insights help decision-makers understand not just what is being sold, but why and to whom.
+These kinds of insights help businesses make smarter decisions across operations and strategy.
 
 <div align="center">
-  <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80" alt="Analytics and reporting illustration" width="1000"/>
+  <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80" alt="Data analytics and reporting" width="1100" />
 </div>
 
 ## How to use this project
 
 1. Open the Excel workbook in the `dashboard/` folder.
-2. Review the charts and summary tables.
-3. Use the raw CSV file in `data/` if you want to work with the dataset in Excel, Python, or Power BI.
-4. Adjust categories, filters, or calculations to explore additional insights.
-5. Share the dashboard with stakeholders for business presentations.
+2. Review the charts and summary sections.
+3. Use the CSV file in the `data/` folder for deeper analysis in Excel or other tools.
+4. Modify filters, categories, or visual components to explore new questions.
+5. Share the dashboard with business stakeholders for reporting and discussion.
 
-## Potential extensions
+## Potential enhancements
 
-This project could be expanded by adding:
+This project could be expanded with:
 
-- more KPI cards and summary metrics
-- interactive slicers and filters
-- a sales trend dashboard
-- customer segmentation analysis
-- forecasting for future purchases
-- Power BI or Tableau version
+- KPI cards and summary metrics
+- slicers and interactive filters
+- customer segmentation dashboards
+- sales forecasting
+- Power BI or Tableau versions
+- executive summary pages for presentation use
 
 ## Conclusion
 
-The Excel Customer Behavior Dashboard is a practical data analysis project that combines customer data, business questions, and visual storytelling. It shows how raw shopping data can be transformed into useful business insights through Excel-based dashboarding.
+The Excel Customer Behavior Dashboard is a strong analytics project that combines business understanding, customer data, and visual presentation. It shows how data can be turned into meaningful insights that support performance analysis and business decision-making.
 
-This project is a good example of how data analytics can support real-world decision-making in retail and customer-focused organisations.
+This repository is a good example of how Excel can be used to build practical business dashboards without needing advanced programming tools. It is especially appropriate for a student project because it demonstrates analytical thinking, data interpretation, and dashboard communication skills.
 
 ---
 
-If you want, I can also help you:
+If you want, I can also help with:
 
-- improve the visual design of the Excel dashboard
-- add more polished KPI sections to the README
-- write a more academic project report version
-- create a screenshot-style mockup section for GitHub
+- a more polished academic report for this project
+- a professional-looking dashboard screenshot section
+- a more concise version for GitHub homepage presentation
+- a detailed project summary for submission or portfolio use
 
